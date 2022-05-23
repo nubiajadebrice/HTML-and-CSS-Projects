@@ -4,3 +4,6 @@ p {
 	font-size: medium;
 	text-align: center;
 }
+p {
+  text-shadow: 2px 2px blue;
+}
