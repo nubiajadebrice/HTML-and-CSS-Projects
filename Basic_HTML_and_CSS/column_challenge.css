@@ -1,0 +1,17 @@
+div {
+    columns: 3;
+}
+
+.column {
+width: auto;
+border: 1px solid black;
+display: inline-table;
+}
+
+.column h1 {
+    text-align: center;
+}
+
+.column p {
+    text-align: center;
+}
