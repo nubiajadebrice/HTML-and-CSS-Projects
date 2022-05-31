@@ -1,0 +1,122 @@
+img {
+    border: 5px solid none;
+    border-radius: 25px;
+}
+
+.navbar {
+    background-color: darksalmon;
+    list-style: none;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.macoverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: opacity(50%);
+}
+
+p:hover {
+    background-color: yellow;
+}
+
+table {
+    width: 50%;
+}
+
+table th {
+    background-color: darksalmon;
+    color: white;
+}
+
+table th, td{
+    border: 3px solid yellow;
+    padding: 10px 10px 10px 10px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: darksalmon;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .mac2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    color: darksalmon;
+    height: 200px;
+    text-align: center;
+}
+
+.videotext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.vidtext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: multiply;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
